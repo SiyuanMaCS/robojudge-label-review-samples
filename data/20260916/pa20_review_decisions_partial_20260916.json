@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "source": "/mlx_devbox/users/masiyuan.jasper/playground/robojudge_remaining_review_52_20260916.json",
+    "selected_pa20_count": 20,
+    "remaining_count": 32,
+    "remaining_axis_counts": {
+      "PA": 3,
+      "IA": 29
+    },
+    "judge_score_caveat": "PA20 rows in remaining52 source did not include Gemini3.5/Qwen/GLM/Claude/GPT5.2 per-item scores. This artifact includes b47 from original review set and GPT5.5/Gemini3.7V recovered from raw prediction files.",
+    "review_update_msg": "48cfdf74",
+    "review_update_summary": "R118 instruction fix + PA label 2; R131/R147/R184 PA label 3; other PA20 rows unchanged per current message."
+  },
+  "patch_items": [
+    {
+      "review_rank": 118,
+      "axis": "PA",
+      "item_id": "data__egoscaler_human__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0096__episode_0001__1__task_0096_episode_0001",
+      "dataset": "egoscaler_human",
+      "gen_model": "wan22_ti2v5b_1280x704_f169_rewrite",
+      "task": "task_0096",
+      "old_gold_score": 1,
+      "reviewed_gold_score": 2,
+      "old_instruction": "Adjust both hands' positions on the black bicycle tire and silver spokes.",
+      "reviewed_instruction": "Turn the bicycle wheel forward.",
+      "score_changed_by_review": true,
+      "instruction_changed_by_review": true,
+      "review_note": "Siyuan: original instruction should be changed to forward-rotate bicycle wheel; PA label changed to 2.",
+      "source_msg": "48cfdf74"
+    },
+    {
+      "review_rank": 131,
+      "axis": "PA",
+      "item_id": "data__open_x_embodiment__generated_data__cogvideo_i2v_f113_prefix__task_0061__episode_0001__1__task_0061_episode_0001",
+      "dataset": "open_x_embodiment",
+      "gen_model": "cogvideo_i2v_f113_prefix",
+      "task": "task_0061",
+      "old_gold_score": 2,
+      "reviewed_gold_score": 3,
+      "old_instruction": "Move the light green folded cloth from the upper-right side of the wooden table with the black gripper to the upper left corner of the table.",
+      "reviewed_instruction": null,
+      "score_changed_by_review": true,
+      "instruction_changed_by_review": false,
+      "review_note": "Siyuan: give PA label 3.",
+      "source_msg": "48cfdf74"
+    },
+    {
+      "review_rank": 147,
+      "axis": "PA",
+      "item_id": "data__robotwin__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0082__episode_0001__1__task_0082_episode_0001",
+      "dataset": "robotwin",
+      "gen_model": "wan22_ti2v5b_1280x704_f169_rewrite",
+      "task": "task_0082",
+      "old_gold_score": 4,
+      "reviewed_gold_score": 3,
+      "old_instruction": "Take the black playing cards box from the grey table and move it away.",
+      "reviewed_instruction": null,
+      "score_changed_by_review": true,
+      "instruction_changed_by_review": false,
+      "review_note": "Siyuan: give PA label 3.",
+      "source_msg": "48cfdf74"
+    },
+    {
+      "review_rank": 184,
+      "axis": "PA",
+      "item_id": "data__egoscaler_human__generated_data__cosmos3_rewrite__task_0022__episode_0001__1__task_0022_episode_0001",
+      "dataset": "egoscaler_human",
+      "gen_model": "cosmos3_rewrite",
+      "task": "task_0022",
+      "old_gold_score": 2,
+      "reviewed_gold_score": 3,
+      "old_instruction": "Open the bottom compartment of the silver refrigerator with your right hand.",
+      "reviewed_instruction": null,
+      "score_changed_by_review": true,
+      "instruction_changed_by_review": false,
+      "review_note": "Siyuan: give PA label 3.",
+      "source_msg": "48cfdf74"
+    }
+  ]
+}
