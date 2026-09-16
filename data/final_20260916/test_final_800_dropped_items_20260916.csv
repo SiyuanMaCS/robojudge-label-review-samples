@@ -1,0 +1,3 @@
+item_id,dataset,model,task,episode,reason
+data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0142__episode_0001__1__task_0142_episode_0001,droid,cogvideo_i2v_f113_prefix,task_0142,episode_0001,Siyuan msg 00668811: delete R100 full item; test set -1.
+data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0021__episode_0001__1__task_0021_episode_0001,droid,cogvideo_i2v_f113_prefix,task_0021,episode_0001,Siyuan msgs 8f10be64/92d29b73: delete one large instruction-rewrite item; selected R035.

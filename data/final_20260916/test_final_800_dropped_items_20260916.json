@@ -1,0 +1,56 @@
+{
+  "dropped_items": [
+    {
+      "item_id": "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0142__episode_0001__1__task_0142_episode_0001",
+      "dataset": "droid",
+      "model": "cogvideo_i2v_f113_prefix",
+      "task": "task_0142",
+      "episode": "episode_0001",
+      "reason": "Siyuan msg 00668811: delete R100 full item; test set -1.",
+      "dropped_full_row": {
+        "item_id": "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0142__episode_0001__1__task_0142_episode_0001",
+        "dataset": "droid",
+        "model": "cogvideo_i2v_f113_prefix",
+        "task": "task_0142",
+        "episode": "episode_0001",
+        "test_split": "id",
+        "video_url": "https://huggingface.co/datasets/HuggingFriends/mllm-as-embodied-world-judge/resolve/main/data/droid/generated_data/cogvideo_i2v_f113_prefix/task_0142/episode_0001/1/task_0142_episode_0001.mp4",
+        "init_frame_url": "https://huggingface.co/datasets/HuggingFriends/mllm-as-embodied-world-judge/resolve/main/data/droid/generated_data/cogvideo_i2v_f113_prefix/task_0142/episode_0001/1/prompt/init_frame.png",
+        "physical_adherence": 1,
+        "instruction_alignment": 1,
+        "agent_consistency": 2,
+        "scene_consistency": 0,
+        "interaction_realism": 0,
+        "agent_match": 0,
+        "object_correct": 0,
+        "goal_completed": 0
+      }
+    },
+    {
+      "item_id": "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0021__episode_0001__1__task_0021_episode_0001",
+      "dataset": "droid",
+      "model": "cogvideo_i2v_f113_prefix",
+      "task": "task_0021",
+      "episode": "episode_0001",
+      "reason": "Siyuan msgs 8f10be64/92d29b73: delete one large instruction-rewrite item; selected R035.",
+      "dropped_full_row": {
+        "item_id": "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0021__episode_0001__1__task_0021_episode_0001",
+        "dataset": "droid",
+        "model": "cogvideo_i2v_f113_prefix",
+        "task": "task_0021",
+        "episode": "episode_0001",
+        "test_split": "id",
+        "video_url": "https://huggingface.co/datasets/HuggingFriends/mllm-as-embodied-world-judge/resolve/main/data/droid/generated_data/cogvideo_i2v_f113_prefix/task_0021/episode_0001/1/task_0021_episode_0001.mp4",
+        "init_frame_url": "https://huggingface.co/datasets/HuggingFriends/mllm-as-embodied-world-judge/resolve/main/data/droid/generated_data/cogvideo_i2v_f113_prefix/task_0021/episode_0001/1/prompt/init_frame.png",
+        "physical_adherence": 3,
+        "instruction_alignment": 4,
+        "agent_consistency": 2,
+        "scene_consistency": 2,
+        "interaction_realism": 1,
+        "agent_match": 2,
+        "object_correct": 2,
+        "goal_completed": 2
+      }
+    }
+  ]
+}

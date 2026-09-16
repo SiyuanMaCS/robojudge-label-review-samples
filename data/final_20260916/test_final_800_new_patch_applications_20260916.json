@@ -1,0 +1,1345 @@
+{
+  "metadata": {
+    "base": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/test_0915_20260916/test_0915.jsonl",
+    "new_patch_sources": [
+      "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/remaining_review_32_after_pa20_20260916/pa20_review_decisions_partial_20260916.json",
+      "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/remaining42_results_20260916/remaining42_review_patch_20260916.json",
+      "/mlx_devbox/users/masiyuan.jasper/playground/outside194_robojudge_diff_audit_50_results_20260916.jsonl"
+    ],
+    "new_patch_records_total": 46,
+    "new_patch_records_kept_or_skipped": 46,
+    "applied_new_patch_records": 46,
+    "already_applied_or_no_effect_new_patch_records": 0,
+    "skipped_by_drop_patch_records": 0
+  },
+  "patch_applications": [
+    {
+      "source": "pa20_review_decisions_partial_20260916",
+      "review_rank": 118,
+      "item_id": "data__egoscaler_human__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0096__episode_0001__1__task_0096_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 1,
+      "reviewed_score": 2,
+      "original_subscores": null,
+      "reviewed_subscores": null,
+      "original_instruction": "Adjust both hands' positions on the black bicycle tire and silver spokes.",
+      "reviewed_instruction": "Turn the bicycle wheel forward.",
+      "verdict": "corrected",
+      "note": "Siyuan: original instruction should be changed to forward-rotate bicycle wheel; PA label changed to 2.",
+      "current_before_score": 1,
+      "current_after_score": 2,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "0/0/0",
+      "changed_fields": [
+        "physical_adherence"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "pa20_review_decisions_partial_20260916",
+      "review_rank": 131,
+      "item_id": "data__open_x_embodiment__generated_data__cogvideo_i2v_f113_prefix__task_0061__episode_0001__1__task_0061_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 2,
+      "reviewed_score": 3,
+      "original_subscores": null,
+      "reviewed_subscores": null,
+      "original_instruction": "Move the light green folded cloth from the upper-right side of the wooden table with the black gripper to the upper left corner of the table.",
+      "reviewed_instruction": null,
+      "verdict": "corrected",
+      "note": "Siyuan: give PA label 3.",
+      "current_before_score": 2,
+      "current_after_score": 3,
+      "current_before_subscores": "2/0/0",
+      "current_after_subscores": "2/0/0",
+      "changed_fields": [
+        "physical_adherence"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "pa20_review_decisions_partial_20260916",
+      "review_rank": 147,
+      "item_id": "data__robotwin__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0082__episode_0001__1__task_0082_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": null,
+      "reviewed_subscores": null,
+      "original_instruction": "Take the black playing cards box from the grey table and move it away.",
+      "reviewed_instruction": null,
+      "verdict": "corrected",
+      "note": "Siyuan: give PA label 3.",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/2",
+      "current_after_subscores": "2/1/2",
+      "changed_fields": [
+        "physical_adherence"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "pa20_review_decisions_partial_20260916",
+      "review_rank": 184,
+      "item_id": "data__egoscaler_human__generated_data__cosmos3_rewrite__task_0022__episode_0001__1__task_0022_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 2,
+      "reviewed_score": 3,
+      "original_subscores": null,
+      "reviewed_subscores": null,
+      "original_instruction": "Open the bottom compartment of the silver refrigerator with your right hand.",
+      "reviewed_instruction": null,
+      "verdict": "corrected",
+      "note": "Siyuan: give PA label 3.",
+      "current_before_score": 2,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/0",
+      "current_after_subscores": "2/1/0",
+      "changed_fields": [
+        "physical_adherence"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 53,
+      "item_id": "data__egoscaler_human__generated_data__abot_physworld_f113_prefix__task_0085__episode_0001__1__task_0085_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Open the stainless steel refrigerator door by pulling its right handle with your hand.",
+      "reviewed_instruction": "Open the stainless steel refrigerator door by pulling its right handle with your hand.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 66,
+      "item_id": "data__gr1_inlab__generated_data__gigaworld_gr1_2b_f113_rewrite__task_0134__episode_0001__1__task_0134_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "1/1/1",
+      "original_instruction": "Pick up the dragon fruit.",
+      "reviewed_instruction": "Pick up the dragon fruit.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "1/1/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "agent_match",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 166,
+      "item_id": "data__gr1_inlab__generated_data__wan22_ti2v5b_1280x704_f169_prefix__task_0138__episode_0001__1__task_0138_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 2,
+      "original_subscores": "0/2/2",
+      "reviewed_subscores": "0/2/1",
+      "original_instruction": "Pick up the pink dragon fruit from the wooden table with the right gripper.",
+      "reviewed_instruction": "Pick up the pink dragon fruit from the wooden table with the right gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 2,
+      "current_before_subscores": "0/2/2",
+      "current_after_subscores": "0/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 26,
+      "item_id": "data__agibot_world__generated_data__cosmos3_rewrite__task_0164__episode_0001__1__task_0164_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Flatten the grey shorts on the floral patterned bed by pulling them outwards with the two robotic grippers.",
+      "reviewed_instruction": "Flatten the grey shorts on the floral patterned bed by pulling them outwards with the two robotic grippers.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 32,
+      "item_id": "data__droid__generated_data__abot_physworld_f113_prefix__task_0054__episode_0001__1__task_0054_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Remove the light blue and white striped towel from the white toilet and put it on the silver horizontal towel bar on the wall with the black gripper.",
+      "reviewed_instruction": "Remove the light blue and white striped towel from the white toilet and put it on the silver horizontal towel bar on the wall with the black gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 43,
+      "item_id": "data__egodex_human__generated_data__cosmos3_prefix__task_0037__episode_0001__1__task_0037_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 2,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/0",
+      "original_instruction": "Insert the black USB connector into one of the black USB hub's ports using your hand.",
+      "reviewed_instruction": "Insert the black USB connector into one of the black USB hub's ports using your hand.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 2,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/0",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 51,
+      "item_id": "data__egodex_human__generated_data__wan26_flash_prefix__task_0134__episode_0001__1__task_0134_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Unfold the white paper origami with both hands on the wooden table.",
+      "reviewed_instruction": "Unfold the white paper origami with both hands on the wooden table.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 57,
+      "item_id": "data__epickitchens_human__generated_data__abot_physworld_f113_rewrite__task_0058__episode_0001__1__task_0058_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Rinse the silver pot held by both hands under the silver faucet in the sink.",
+      "reviewed_instruction": "Rinse the silver pot held by both hands under the silver faucet in the sink.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 78,
+      "item_id": "data__robotwin__generated_data__cogvideo_i2v_f113_prefix__task_0048__episode_0001__1__task_0048_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 1,
+      "reviewed_score": 2,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "1/0/0",
+      "original_instruction": "Pick the medium light orange/yellowish, textured bread with rounded sides with the black gripper of the robotic arm from the gray table and move it to the medium light orange/brown woven breadbasket.",
+      "reviewed_instruction": "Pick the medium light orange/yellowish, textured bread with rounded sides with the black gripper of the robotic arm from the gray table and move it to the medium light orange/brown woven breadbasket.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 2,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "1/0/0",
+      "changed_fields": [
+        "instruction_alignment",
+        "agent_match"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 96,
+      "item_id": "data__agibot_world__generated_data__gigaworld_gr1_2b_f113_rewrite__task_0178__episode_0001__1__task_0178_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 1,
+      "reviewed_score": 2,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "1/0/1",
+      "original_instruction": "Sort the clear plastic cups and small sealed bags from the two white trays into the blue tray on the right in the warehouse with the right gripper.",
+      "reviewed_instruction": "Sort the clear plastic cups and small sealed bags from the two white trays into the blue tray on the right in the warehouse with the right gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 2,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "1/0/1",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 102,
+      "item_id": "data__droid__generated_data__gigaworld_gr1_2b_f113_rewrite__task_0138__episode_0001__1__task_0138_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 1,
+      "reviewed_score": 3,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "1/1/1",
+      "original_instruction": "Pick up a silver utensil from the open wooden drawer and place it on the light brown rectangular wooden board.",
+      "reviewed_instruction": "Pick up a silver utensil from the open wooden drawer and place it on the light brown rectangular wooden board.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 3,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "1/1/1",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 110,
+      "item_id": "data__egoscaler_human__generated_data__abot_physworld_f113_prefix__task_0092__episode_0001__1__task_0092_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/1/2",
+      "reviewed_subscores": "1/1/2",
+      "original_instruction": "Pick up the dark-handled knife from the wooden countertop with your right hand.",
+      "reviewed_instruction": "Pick up the dark-handled knife from the wooden countertop with your right hand.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/2",
+      "current_after_subscores": "1/1/2",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 146,
+      "item_id": "data__robotwin__generated_data__veo31_lite_prefix__task_0179__episode_0001__1__task_0179_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "1/1/2",
+      "original_instruction": "Set the white wrapped item with a green logo and the French fries in red McDonald's packaging down on the green rectangular tray after picking them.",
+      "reviewed_instruction": "Set the white wrapped item with a green logo and the French fries in red McDonald's packaging down on the green rectangular tray after picking them.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "1/1/2",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency",
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 158,
+      "item_id": "data__egodex_human__generated_data__cogvideo_i2v_f113_rewrite__task_0117__episode_0001__1__task_0117_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "Open the white AirPods case with your hands.",
+      "reviewed_instruction": "Open the white AirPods case with your hands.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 160,
+      "item_id": "data__egoscaler_human__generated_data__abot_physworld_f113_prefix__task_0044__episode_0001__1__task_0044_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "Pick up the dark frying pan from the black cooker.",
+      "reviewed_instruction": "Pick up the dark frying pan from the black cooker.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 169,
+      "item_id": "data__robotwin__generated_data__cosmos3_prefix__task_0178__episode_0001__1__task_0178_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/1/1",
+      "reviewed_subscores": "1/1/1",
+      "original_instruction": "Set the light brown square cracker and the McDonald's French fries in red packaging on the pale pink rectangular tray.",
+      "reviewed_instruction": "Set the light brown square cracker and the McDonald's French fries in red packaging on the pale pink rectangular tray.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/1",
+      "current_after_subscores": "1/1/1",
+      "changed_fields": [
+        "agent_match"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 171,
+      "item_id": "data__robotwin__generated_data__kling_prefix__task_0016__episode_0001__1__task_0016_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/1/1",
+      "reviewed_subscores": "2/1/0",
+      "original_instruction": "Set the red block from the gray table on the blue pad.",
+      "reviewed_instruction": "Set the red block from the gray table on the blue pad.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/1",
+      "current_after_subscores": "2/1/0",
+      "changed_fields": [
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 178,
+      "item_id": "data__egodex_human__generated_data__abot_physworld_f113_prefix__task_0087__episode_0001__1__task_0087_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 4,
+      "original_subscores": "0/2/2",
+      "reviewed_subscores": "1/2/2",
+      "original_instruction": "Open the brown rectangular box.",
+      "reviewed_instruction": "Open the brown rectangular box.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 4,
+      "current_before_subscores": "0/2/2",
+      "current_after_subscores": "1/2/2",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 181,
+      "item_id": "data__egodex_human__generated_data__gigaworld_gr1_2b_f113_rewrite__task_0018__episode_0001__1__task_0018_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 4,
+      "original_subscores": "1/2/0",
+      "reviewed_subscores": "1/1/1",
+      "original_instruction": "Press each bubble on the rainbow circle fidget toy individually using your fingers.",
+      "reviewed_instruction": "Press each bubble on the rainbow circle fidget toy individually using your fingers.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 4,
+      "current_before_subscores": "1/2/0",
+      "current_after_subscores": "1/1/1",
+      "changed_fields": [
+        "physical_adherence",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 186,
+      "item_id": "data__egoscaler_human__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0094__episode_0001__1__task_0094_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "1/2/1",
+      "reviewed_subscores": "1/0/1",
+      "original_instruction": "Pull the white tube from the clear plastic packaging with your hands.",
+      "reviewed_instruction": "Pull the white tube from the clear plastic packaging with your hands.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "1/2/1",
+      "current_after_subscores": "1/0/1",
+      "changed_fields": [
+        "physical_adherence",
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "remaining42_review_patch_20260916",
+      "review_rank": 193,
+      "item_id": "data__open_x_embodiment__generated_data__wan22_ti2v5b_1280x704_f169_prefix__task_0120__episode_0001__1__task_0120_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/0",
+      "reviewed_subscores": "2/1/0",
+      "original_instruction": "Grasp the brown book.",
+      "reviewed_instruction": "Grasp the brown book.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/0",
+      "current_after_subscores": "2/1/0",
+      "changed_fields": [
+        "physical_adherence",
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__egodex_human__generated_data__gigaworld_gr1_2b_f113_rewrite__task_0074__episode_0001__1__task_0074_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 1,
+      "reviewed_score": 2,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "1/1/0",
+      "original_instruction": "A Jenga tower stands on a surface beside a yellow table. The person's hand slides one wooden block free from the tower and sets it down on the yellow table.",
+      "reviewed_instruction": "A Jenga tower stands on a surface beside a yellow table. The person's hand slides one wooden block free from the tower and sets it down on the yellow table.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 2,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "1/1/0",
+      "changed_fields": [
+        "instruction_alignment",
+        "agent_match",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__cogvideo_i2v_f113_rewrite__task_0011__episode_0001__1__task_0011_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 1,
+      "reviewed_score": 1,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "0/1/0",
+      "original_instruction": "Reach toward the beige cloth on the wooden table with the right gripper. Grasp one edge. Lift it. Carry it across to the opposite edge. Release. Smooth. The beige cloth is folded in half.",
+      "reviewed_instruction": "Reach toward the beige cloth on the wooden table with the right gripper. Grasp one edge. Lift it. Carry it across to the opposite edge. Release. Smooth. The beige cloth is folded in half.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 1,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "0/1/0",
+      "changed_fields": [
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0114__episode_0001__1__task_0114_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 2,
+      "reviewed_score": 2,
+      "original_subscores": "2/1/2",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "On a wooden table, the right robotic gripper reaches toward the green plastic pouch, grasps it, and lowers it into the open grey felt bag. It then takes the green bottle and sets it inside, and finally grasps the pink mug and releases it into the grey felt bag, leaving all three packed.",
+      "reviewed_instruction": "On a wooden table, the right robotic gripper reaches toward the green plastic pouch, grasps it, and lowers it into the open grey felt bag. It then takes the green bottle and sets it inside, and finally grasps the pink mug and releases it into the grey felt bag, leaving all three packed.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 2,
+      "current_after_score": 2,
+      "current_before_subscores": "2/1/2",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__wow_wan14b_f105_prefix__task_0097__episode_0001__1__task_0097_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 2,
+      "reviewed_score": 3,
+      "original_subscores": "1/2/0",
+      "reviewed_subscores": "1/2/0",
+      "original_instruction": "A rigid, physically plausible robotic arm in the fixed workspace proceeds to Pick the blue round plate from the wooden rack with the left gripper and place it into the black dish drying rack with the right gripper.",
+      "reviewed_instruction": "A rigid, physically plausible robotic arm in the fixed workspace proceeds to Pick the blue round plate from the wooden rack with the left gripper and place it into the black dish drying rack with the right gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 2,
+      "current_after_score": 3,
+      "current_before_subscores": "1/2/0",
+      "current_after_subscores": "1/2/0",
+      "changed_fields": [
+        "instruction_alignment"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__wan26_flash_rewrite__task_0106__episode_0001__1__task_0106_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 5,
+      "original_subscores": "2/1/2",
+      "reviewed_subscores": "2/2/2",
+      "original_instruction": "Above the wooden table, the right gripper holds the yellow corn. It moves toward the waiting left gripper. The left gripper closes around the yellow corn, and the right gripper opens, releasing the yellow corn into the left gripper's hold. Done.",
+      "reviewed_instruction": "Above the wooden table, the right gripper holds the yellow corn. It moves toward the waiting left gripper. The left gripper closes around the yellow corn, and the right gripper opens, releasing the yellow corn into the left gripper's hold. Done.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 5,
+      "current_before_subscores": "2/1/2",
+      "current_after_subscores": "2/2/2",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__happyhorse_prefix__task_0112__episode_0001__1__task_0112_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "In a controlled robotic workspace, a stable rigid robotic arm with no deformation begins to Toast the brown sliced bread by placing it from the small woven basket into the two slots of the light-colored toaster with the left gripper.",
+      "reviewed_instruction": "In a controlled robotic workspace, a stable rigid robotic arm with no deformation begins to Toast the brown sliced bread by placing it from the small woven basket into the two slots of the light-colored toaster with the left gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__wan26_flash_rewrite__task_0035__episode_0001__1__task_0035_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "The robotic grippers reach over the two blue bins, grasp a white packaged item, lift it, and release it into the empty blue container, also moving items between the blue bins. Both grippers repeat in coordination until the white packaged items are sorted into the blue container.",
+      "reviewed_instruction": "The robotic grippers reach over the two blue bins, grasp a white packaged item, lift it, and release it into the empty blue container, also moving items between the blue bins. Both grippers repeat in coordination until the white packaged items are sorted into the blue container.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__egoscaler_human__generated_data__cogvideo_i2v_f113_prefix__task_0064__episode_0001__1__task_0064_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "0/2/2",
+      "reviewed_subscores": "0/1/2",
+      "original_instruction": "In a real-world first-person scene, a human hand begins to Hold the bottom white microwave's door with your left hand.",
+      "reviewed_instruction": "In a real-world first-person scene, a human hand begins to Hold the bottom white microwave's door with your left hand.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "0/2/2",
+      "current_after_subscores": "0/1/2",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__wow_wan14b_f105_prefix__task_0168__episode_0001__1__task_0168_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/1/2",
+      "original_instruction": "In a robotic workspace, a stable robotic arm Pick the yellow corn from the wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "reviewed_instruction": "In a robotic workspace, a stable robotic arm Pick the yellow corn from the wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/1/2",
+      "changed_fields": [
+        "instruction_alignment",
+        "object_correct"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__open_x_embodiment__generated_data__abot_physworld_f113_prefix__task_0100__episode_0001__1__task_0100_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "Pick up the purple cup and place it into the blue bowl.",
+      "reviewed_instruction": "Pick up the purple cup and place it into the blue bowl.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__robotwin__generated_data__wan26_flash_rewrite__task_0016__episode_0001__1__task_0016_episode_0001",
+      "axis": "IA",
+      "main_field": "instruction_alignment",
+      "subscore_fields": [
+        "agent_match",
+        "object_correct",
+        "goal_completed"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "The gripper reaches the red block on the gray table, closes around it, and lifts it. It carries the block over the blue pad and lowers it down, releasing to set the red block on the blue pad.",
+      "reviewed_instruction": "The gripper reaches the red block on the gray table, closes around it, and lifts it. It carries the block over the blue pad and lowers it down, releasing to set the red block on the blue pad.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "instruction_alignment",
+        "goal_completed"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__cogvideo_i2v_f113_rewrite__task_0181__episode_0001__1__task_0181_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 1,
+      "reviewed_score": 2,
+      "original_subscores": "0/0/0",
+      "reviewed_subscores": "1/1/0",
+      "original_instruction": "Reach into the two white rectangular trays with the robotic grippers and pick up the white cups and white-packaged items one by one, lifting each across the warehouse table and releasing it into the blue rectangular tray, repeating until every white cup and white-packaged item has been sorted into the blue rectangular tray.",
+      "reviewed_instruction": "Reach into the two white rectangular trays with the robotic grippers and pick up the white cups and white-packaged items one by one, lifting each across the warehouse table and releasing it into the blue rectangular tray, repeating until every white cup and white-packaged item has been sorted into the blue rectangular tray.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 1,
+      "current_after_score": 2,
+      "current_before_subscores": "0/0/0",
+      "current_after_subscores": "1/1/0",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency",
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__gigaworld_gr1_2b_f113_prefix__task_0166__episode_0001__1__task_0166_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 2,
+      "reviewed_score": 3,
+      "original_subscores": "2/1/0",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "In a controlled robotic workspace, a stable rigid robotic arm with no deformation begins to Move the robot arms to the sink to pick up the white bowl and brown chopsticks.",
+      "reviewed_instruction": "In a controlled robotic workspace, a stable rigid robotic arm with no deformation begins to Move the robot arms to the sink to pick up the white bowl and brown chopsticks.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 2,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/0",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "physical_adherence",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__gigaworld_gr1_2b_f113_prefix__task_0153__episode_0001__1__task_0153_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 2,
+      "reviewed_score": 3,
+      "original_subscores": "0/0/2",
+      "reviewed_subscores": "1/0/2",
+      "original_instruction": "In a fixed robotic workspace, a rigid and physically consistent embodied robotic arm with high stability and no deformation proceeds to Pick the yellow corn cob from the light brown wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "reviewed_instruction": "In a fixed robotic workspace, a rigid and physically consistent embodied robotic arm with high stability and no deformation proceeds to Pick the yellow corn cob from the light brown wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 2,
+      "current_after_score": 3,
+      "current_before_subscores": "0/0/2",
+      "current_after_subscores": "1/0/2",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__gr1_inlab__generated_data__wow_wan14b_f105_prefix__task_0168__episode_0001__1__task_0168_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 2,
+      "reviewed_score": 2,
+      "original_subscores": "2/0/2",
+      "reviewed_subscores": "0/0/1",
+      "original_instruction": "In a robotic workspace, a stable robotic arm Pick the yellow corn from the wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "reviewed_instruction": "In a robotic workspace, a stable robotic arm Pick the yellow corn from the wooden table with the right gripper and place it onto the yellow round plate with the left gripper.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 2,
+      "current_after_score": 2,
+      "current_before_subscores": "2/0/2",
+      "current_after_subscores": "0/0/1",
+      "changed_fields": [
+        "agent_consistency",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__droid__generated_data__kling_rewrite__task_0109__episode_0001__1__task_0109_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/0/0",
+      "reviewed_subscores": "2/1/0",
+      "original_instruction": "On a wooden table, the robot gripper descends onto the green block and closes around it. The arm lifts the green block, arcs it over to the black bowl, and lowers it, releasing the green block so it settles inside the black bowl.",
+      "reviewed_instruction": "On a wooden table, the robot gripper descends onto the green block and closes around it. The arm lifts the green block, arcs it over to the black bowl, and lowers it, releasing the green block so it settles inside the black bowl.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/0/0",
+      "current_after_subscores": "2/1/0",
+      "changed_fields": [
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__wan22_ti2v5b_1280x704_f169_rewrite__task_0012__episode_0001__1__task_0012_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 2,
+      "original_subscores": "0/1/1",
+      "reviewed_subscores": "0/1/1",
+      "original_instruction": "The right gripper reaches over the wooden display tray in the supermarket, grasps a yellow fruit, lifts it, swings to the shopping cart, and releases it into the bag inside. It repeats for the remaining yellow and orange fruits, transferring each one until all are deposited in the cart.",
+      "reviewed_instruction": "The right gripper reaches over the wooden display tray in the supermarket, grasps a yellow fruit, lifts it, swings to the shopping cart, and releases it into the bag inside. It repeats for the remaining yellow and orange fruits, transferring each one until all are deposited in the cart.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 2,
+      "current_before_subscores": "0/1/1",
+      "current_after_subscores": "0/1/1",
+      "changed_fields": [
+        "physical_adherence"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__agibot_world__generated_data__wow_wan14b_f105_rewrite__task_0149__episode_0001__1__task_0149_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 2,
+      "original_subscores": "2/0/2",
+      "reviewed_subscores": "1/0/0",
+      "original_instruction": "Reaching across the table, the right robotic arm grasps the clear plastic bubble wrap, lifts it over the open brown cardboard box, and releases it inside. The arm then reaches for the small colored e-commerce products, grasps them, lifts and pivots over the box, and drops them in, packing both into the brown cardboard box.",
+      "reviewed_instruction": "Reaching across the table, the right robotic arm grasps the clear plastic bubble wrap, lifts it over the open brown cardboard box, and releases it inside. The arm then reaches for the small colored e-commerce products, grasps them, lifts and pivots over the box, and drops them in, packing both into the brown cardboard box.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 2,
+      "current_before_subscores": "2/0/2",
+      "current_after_subscores": "1/0/0",
+      "changed_fields": [
+        "physical_adherence",
+        "agent_consistency",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__robotwin__generated_data__wow_wan14b_f105_rewrite__task_0176__episode_0001__1__task_0176_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 3,
+      "reviewed_score": 3,
+      "original_subscores": "2/1/1",
+      "reviewed_subscores": "1/1/1",
+      "original_instruction": "The gripper closes around the small rectangular red and yellow playing cards box and lifts it. It moves the box to the left and lowers it. The task ends once the box is placed to its left.",
+      "reviewed_instruction": "The gripper closes around the small rectangular red and yellow playing cards box and lifts it. It moves the box to the left and lowers it. The task ends once the box is placed to its left.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 3,
+      "current_after_score": 3,
+      "current_before_subscores": "2/1/1",
+      "current_after_subscores": "1/1/1",
+      "changed_fields": [
+        "agent_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__robotwin__generated_data__kling_prefix__task_0039__episode_0001__1__task_0039_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 4,
+      "reviewed_score": 3,
+      "original_subscores": "2/2/1",
+      "reviewed_subscores": "2/1/1",
+      "original_instruction": "In a fixed robotic workspace, a rigid and physically consistent embodied robotic arm with high stability and no deformation proceeds to Raise the rectangular white laptop with hinge from the brown table, using the left robotic arm to stand it vertically.",
+      "reviewed_instruction": "In a fixed robotic workspace, a rigid and physically consistent embodied robotic arm with high stability and no deformation proceeds to Raise the rectangular white laptop with hinge from the brown table, using the left robotic arm to stand it vertically.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 4,
+      "current_after_score": 3,
+      "current_before_subscores": "2/2/1",
+      "current_after_subscores": "2/1/1",
+      "changed_fields": [
+        "physical_adherence",
+        "scene_consistency"
+      ],
+      "apply_status": "applied"
+    },
+    {
+      "source": "outside194_robojudge_diff_audit_50_results_20260916",
+      "review_rank": null,
+      "item_id": "data__epickitchens_human__generated_data__wow_wan14b_f105_prefix__task_0027__episode_0001__1__task_0027_episode_0001",
+      "axis": "PA",
+      "main_field": "physical_adherence",
+      "subscore_fields": [
+        "agent_consistency",
+        "scene_consistency",
+        "interaction_realism"
+      ],
+      "original_score": 5,
+      "reviewed_score": 4,
+      "original_subscores": "2/2/2",
+      "reviewed_subscores": "2/2/1",
+      "original_instruction": "In an egocentric recording of a person, their hand proceeds to With your right hand, use the silver knife to cut the orange carrots on the white cutting board.",
+      "reviewed_instruction": "In an egocentric recording of a person, their hand proceeds to With your right hand, use the silver knife to cut the orange carrots on the white cutting board.",
+      "verdict": "corrected",
+      "note": "",
+      "current_before_score": 5,
+      "current_after_score": 4,
+      "current_before_subscores": "2/2/2",
+      "current_after_subscores": "2/2/1",
+      "changed_fields": [
+        "physical_adherence",
+        "interaction_realism"
+      ],
+      "apply_status": "applied"
+    }
+  ]
+}

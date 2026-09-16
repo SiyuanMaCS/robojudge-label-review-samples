@@ -1,0 +1,91 @@
+\begin{table}[t]
+\centering
+\caption{Judge performance on RoboJudge-Bench final800. $r$ is Pearson and $\rho$ is Spearman correlation with the human score; \emph{ex.} is exact match. Overall $r$ and MSE pool PA and IA as axis-level score predictions. Best per column is in \textbf{bold}; the uniform-random row is an analytic floor, not a competitor.}
+\label{tab:judge_performance}
+\footnotesize
+\setlength{\tabcolsep}{3.6pt}
+\begin{tabular}{@{}l cccc cccc cc@{}}
+\hline
+ & \multicolumn{4}{c}{\textbf{Physical Adherence}} & \multicolumn{4}{c}{\textbf{Instruction Alignment}} & \multicolumn{2}{c}{\textbf{Overall}} \\
+\cline{2-5}\cline{6-9}\cline{10-11}
+\textbf{Judge} & $r$ & $\rho$ & \emph{ex.} & MSE & $r$ & $\rho$ & \emph{ex.} & MSE & $r$ & MSE \\
+\hline
+\multicolumn{11}{@{}l}{\textit{\textbf{Non-VLM Metrics}}}\\[2pt]
+Random (uniform)
+& 0.000 & 0.000 & 0.200 & 3.380 & 0.000 & 0.000 & 0.200 & 3.774 & 0.000 & 3.577 \\
+Frame consistency (frame-diff)
+& 0.141 & 0.136 & -- & -- & 0.001 & -0.007 & -- & -- & 0.067 & -- \\
+Temporal consistency (warp)
+& 0.118 & 0.114 & -- & -- & -0.019 & -0.025 & -- & -- & 0.045 & -- \\
+
+\multicolumn{11}{@{}l}{\textit{\textbf{Close-Source VLMs}}}\\[2pt]
+Gemini-3.5-Flash
+& 0.596 & \textbf{0.623} & 0.307 & 1.521 & 0.510 & 0.516 & 0.369 & 1.538 & 0.553 & 1.529 \\
+Gemini-3.1-Pro
+& 0.457 & 0.467 & 0.300 & 1.494 & 0.577 & 0.571 & 0.290 & 1.530 & 0.531 & 1.512 \\
+GPT-5.5
+& 0.459 & 0.441 & 0.326 & 1.496 & 0.718 & 0.721 & 0.472 & 0.850 & 0.588 & 1.173 \\
+GPT-5.2
+& 0.476 & 0.474 & 0.350 & 1.235 & 0.703 & 0.708 & 0.477 & 0.946 & 0.607 & 1.091 \\
+Claude-Opus-4.8
+& 0.485 & 0.493 & 0.329 & 1.341 & 0.648 & 0.644 & 0.330 & 1.570 & 0.575 & 1.456 \\
+Claude-Haiku-4.5
+& 0.156 & 0.156 & 0.247 & 2.752 & 0.343 & 0.332 & 0.347 & 2.533 & 0.261 & 2.643 \\
+Qwen3.7-Max
+& 0.530 & 0.533 & 0.242 & 2.590 & 0.535 & 0.539 & 0.396 & 2.080 & 0.521 & 2.335 \\
+Qwen3.7-Plus
+& 0.525 & 0.532 & 0.249 & 2.574 & 0.541 & 0.545 & 0.400 & 2.041 & 0.523 & 2.308 \\
+Seed-2.0-Pro
+& 0.591 & 0.610 & 0.357 & 1.104 & 0.693 & 0.697 & 0.501 & 1.019 & 0.649 & 1.061 \\
+Seed-2.1-Lite
+& 0.572 & 0.583 & \textbf{0.381} & 0.979 & 0.677 & 0.678 & 0.461 & 1.183 & 0.613 & 1.081 \\
+
+\multicolumn{11}{@{}l}{\textit{\textbf{Open-Source VLMs}}}\\[2pt]
+Qwen3.5-27B
+& 0.284 & 0.287 & 0.170 & 4.169 & 0.571 & 0.565 & 0.409 & 1.866 & 0.403 & 3.018 \\
+Qwen3.5-9B
+& 0.302 & 0.285 & 0.176 & 3.846 & 0.509 & 0.510 & 0.394 & 2.149 & 0.384 & 2.998 \\
+Qwen3.5-4B
+& 0.139 & 0.125 & 0.139 & 4.711 & 0.227 & 0.212 & 0.263 & 3.870 & 0.084 & 4.291 \\
+Qwen3-VL-8B
+& 0.279 & 0.283 & 0.168 & 3.885 & 0.335 & 0.351 & 0.312 & 3.126 & 0.283 & 3.506 \\
+GLM-4.6V-Flash
+& 0.247 & 0.236 & 0.163 & 3.941 & 0.435 & 0.426 & 0.327 & 3.053 & 0.350 & 3.497 \\
+InternVL3.5-38B
+& 0.203 & 0.184 & 0.128 & 4.792 & 0.361 & 0.349 & 0.337 & 3.074 & 0.256 & 3.933 \\
+MiMo-VL-7B
+& 0.070 & 0.045 & 0.140 & 4.806 & 0.350 & 0.341 & 0.295 & 3.459 & 0.225 & 4.133 \\
+
+\multicolumn{11}{@{}l}{\textit{\textbf{Specialized Embodied VLMs}}}\\[2pt]
+Cosmos3-Nano-Reasoner
+& 0.247 & 0.237 & 0.160 & 4.350 & 0.503 & 0.505 & 0.407 & 2.136 & 0.348 & 3.243 \\
+Cosmos-Reason2-32B
+& 0.247 & 0.256 & 0.165 & 3.846 & 0.464 & 0.458 & 0.375 & 2.402 & 0.350 & 3.124 \\
+Cosmos-Reason2-2B
+& 0.079 & 0.075 & 0.131 & 5.004 & 0.299 & 0.297 & 0.273 & 3.626 & 0.192 & 4.315 \\
+MiMo-Embodied-7B
+& 0.208 & 0.210 & 0.126 & 4.838 & 0.445 & 0.445 & 0.336 & 2.815 & 0.297 & 3.831 \\
+RynnBrain-1.1-9B
+& 0.058 & 0.094 & 0.120 & 5.179 & 0.187 & 0.166 & 0.289 & 4.037 & 0.119 & 4.608 \\
+RoboBrain2.5-8B
+& 0.038 & 0.013 & 0.130 & 5.059 & 0.185 & 0.169 & 0.292 & 3.798 & 0.109 & 4.429 \\
+Orca-4B
+& 0.097 & 0.107 & 0.150 & 4.556 & 0.089 & 0.085 & 0.264 & 3.314 & 0.043 & 3.936 \\
+
+\multicolumn{11}{@{}l}{\textit{\textbf{Specialised Judges}}}\\[2pt]
+VideoScore2
+& 0.194 & 0.195 & 0.312 & 1.486 & 0.186 & 0.193 & 0.226 & 1.833 & 0.204 & 1.659 \\
+VideoPhy-2
+& 0.139 & 0.140 & 0.282 & 1.938 & 0.133 & 0.126 & 0.265 & 1.877 & 0.080 & 1.907 \\
+VideoCon
+& 0.077 & 0.071 & 0.151 & 4.080 & 0.052 & 0.045 & 0.171 & 4.883 & 0.071 & 4.481 \\
+WBench
+& 0.402 & 0.400 & -- & -- & -- & -- & -- & -- & -- & -- \\
+PhyJudge
+& 0.373 & 0.376 & 0.301 & 1.651 & 0.573 & 0.577 & 0.344 & 1.171 & 0.485 & 1.413 \\
+\textbf{RoboJudge-9B (ours)}
+& \textbf{0.612} & 0.621 & \textbf{0.381} & \textbf{0.904} & \textbf{0.747} & \textbf{0.756} & \textbf{0.504} & \textbf{0.812} & \textbf{0.692} & \textbf{0.858} \\
+
+\hline
+\end{tabular}
+\end{table}

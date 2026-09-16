@@ -1,0 +1,57 @@
+{
+  "name": "test_final_800_20260916",
+  "created_at_cst": "2026-09-16 20:44:38",
+  "base_package": "test_final_801_20260916",
+  "base_rows": 801,
+  "final_rows": 800,
+  "drop_count_total_from_original_802": 2,
+  "dropped_item_ids": [
+    "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0142__episode_0001__1__task_0142_episode_0001",
+    "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0021__episode_0001__1__task_0021_episode_0001"
+  ],
+  "new_second_drop_item_id": "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0021__episode_0001__1__task_0021_episode_0001",
+  "instruction_fix_count_total_audit": 8,
+  "instruction_fix_count_active_final800": 7,
+  "checks": {
+    "rows": 800,
+    "unique_item_ids": 800,
+    "dropped_items_absent": true,
+    "score_ranges_ok": true,
+    "subscore_ranges_ok": true
+  },
+  "notes": [
+    "R100 and R035 are absent from final800.",
+    "R035 chosen as extra deletion because it had the largest semantic instruction rewrite.",
+    "Instruction fixes are manifest-only because gold JSONL schema has no instruction field."
+  ],
+  "files": {
+    "test_final_800_dropped_items_20260916.csv": {
+      "bytes": 511,
+      "sha256": "776f3b756cb07c70cfebe16a53c73dcd205f41e757747fa5989617ddd29a967d"
+    },
+    "test_final_800_dropped_items_20260916.json": {
+      "bytes": 2769,
+      "sha256": "fcf6540a4ecd372aa06b01cd16c1cbc8e4dd8f31f35f76cea23027d7cf444c9a"
+    },
+    "test_final_800_instruction_fixes_20260916.csv": {
+      "bytes": 4669,
+      "sha256": "6ba7ed32483ed807811708ad71663f89a22d2a04abff6c1887319d0f3802c83c"
+    },
+    "test_final_800_instruction_fixes_20260916.json": {
+      "bytes": 7656,
+      "sha256": "2b9ad3490730e38b28f6f43245288c32ca22da408c31e0bd2a8b063e25b0f150"
+    },
+    "test_final_800_new_patch_applications_20260916.csv": {
+      "bytes": 29616,
+      "sha256": "b0a29024f63e1203adfeba5bf2ab5338cd8642cf7b5cc5c3de215d0167b16c14"
+    },
+    "test_final_800_new_patch_applications_20260916.json": {
+      "bytes": 56873,
+      "sha256": "edaae4aff2960331f36da98bd301c09fca57379d5c35709be59cbf6e18ce4a09"
+    },
+    "test_final_800_manifest_20260916.json": {
+      "bytes": 2121,
+      "sha256": "fee550b11629ba094878932b3ef98e4e757b87ac6904832d951807a06418e119"
+    }
+  }
+}
