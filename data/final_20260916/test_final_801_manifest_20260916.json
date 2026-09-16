@@ -1,6 +1,6 @@
 {
   "name": "test_final_801_20260916",
-  "created_at_cst": "2026-09-16 20:24:09",
+  "created_at_cst": "2026-09-16 20:25:40",
   "base_package": "test_0915_20260916/test_0915.jsonl",
   "base_rows": 802,
   "final_rows": 801,
@@ -56,6 +56,10 @@
       "bytes": 7161,
       "sha256": "8cab226f64b02542bb8c508d89eb5ba236cce16e19d35b226b5b0d57aa31fccf"
     },
+    "test_final_801_manifest_20260916.json": {
+      "bytes": 3829,
+      "sha256": "405f6874be386355968272f8abd9261a5bd565ed5dd41941c8cb5706129eaed2"
+    },
     "test_final_801_new_patch_applications_20260916.csv": {
       "bytes": 29616,
       "sha256": "b0a29024f63e1203adfeba5bf2ab5338cd8642cf7b5cc5c3de215d0167b16c14"
@@ -67,10 +71,6 @@
     "test_final_801_20260916.jsonl": {
       "bytes": 698605,
       "sha256": "603191a087e9c825a1233fb4707e27cd1c38b7270a0374d160f3cee196ad33a5"
-    },
-    "test_final_801_manifest_20260916.json": {
-      "bytes": 3671,
-      "sha256": "8ee0a58df44aba7a8b104c5455b6148f8ba9c9b67a616a01f9271b666df06ab1"
     }
   },
   "notes": [
