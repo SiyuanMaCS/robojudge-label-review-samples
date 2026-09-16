@@ -1,0 +1,81 @@
+{
+  "name": "test_final_801_20260916",
+  "created_at_cst": "2026-09-16 20:24:09",
+  "base_package": "test_0915_20260916/test_0915.jsonl",
+  "base_rows": 802,
+  "final_rows": 801,
+  "drop_count": 1,
+  "dropped_item_ids": [
+    "data__droid__generated_data__cogvideo_i2v_f113_prefix__task_0142__episode_0001__1__task_0142_episode_0001"
+  ],
+  "base_score_fix_count_from_test0915_manifest": 30,
+  "new_patch_records_total": 46,
+  "new_patch_records_applied_effective": 46,
+  "new_patch_records_already_applied_or_no_effect": 0,
+  "new_patch_records_skipped_by_drop": 0,
+  "instruction_fix_count": 8,
+  "instruction_fix_manifest_only": true,
+  "sources": {
+    "base_gold": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/test_0915_20260916/test_0915.jsonl",
+    "base_manifest": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/test_0915_20260916/test_0915_manifest.json",
+    "pa20_partial": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/remaining_review_32_after_pa20_20260916/pa20_review_decisions_partial_20260916.json",
+    "remaining42_patch": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/remaining42_results_20260916/remaining42_review_patch_20260916.json",
+    "outside194_50_results": "/mlx_devbox/users/masiyuan.jasper/playground/outside194_robojudge_diff_audit_50_results_20260916.jsonl",
+    "instruction_fixes_prior": "/home/tiger/.slock/agents/67b6b8d0-4886-4654-b62e-ff04528f88e6/artifacts/b47_ckpt200_label_review/uncertain_and_instruction_fixes_20260916/uncertain_and_instruction_fixes_20260916.json",
+    "siyuan_final_decisions": [
+      "00668811",
+      "474133a8"
+    ]
+  },
+  "checks": {
+    "rows": 801,
+    "unique_item_ids": 801,
+    "dropped_item_present": false,
+    "r035_present": true,
+    "score_ranges_ok": true,
+    "subscore_ranges_ok": true,
+    "axis_counts_if_expanded": {
+      "PA": 801,
+      "IA": 801
+    }
+  },
+  "files": {
+    "test_final_801_dropped_items_20260916.csv": {
+      "bytes": 281,
+      "sha256": "54dd85627958c15bb4e959c79ebd756c750d69ef00d4ce6c12c30a439cc19395"
+    },
+    "test_final_801_dropped_items_20260916.json": {
+      "bytes": 1415,
+      "sha256": "b82060f90a0c1f21ee02b070914efb97d7478f31d0b9217b66d70121dfb5ea3d"
+    },
+    "test_final_801_instruction_fixes_20260916.csv": {
+      "bytes": 4601,
+      "sha256": "a99a1c1d270e94dc68e6c398b69d656cdd38f5b2df8d168d16f3813d88454007"
+    },
+    "test_final_801_instruction_fixes_20260916.json": {
+      "bytes": 7161,
+      "sha256": "8cab226f64b02542bb8c508d89eb5ba236cce16e19d35b226b5b0d57aa31fccf"
+    },
+    "test_final_801_new_patch_applications_20260916.csv": {
+      "bytes": 29616,
+      "sha256": "b0a29024f63e1203adfeba5bf2ab5338cd8642cf7b5cc5c3de215d0167b16c14"
+    },
+    "test_final_801_new_patch_applications_20260916.json": {
+      "bytes": 56873,
+      "sha256": "edaae4aff2960331f36da98bd301c09fca57379d5c35709be59cbf6e18ce4a09"
+    },
+    "test_final_801_20260916.jsonl": {
+      "bytes": 698605,
+      "sha256": "603191a087e9c825a1233fb4707e27cd1c38b7270a0374d160f3cee196ad33a5"
+    },
+    "test_final_801_manifest_20260916.json": {
+      "bytes": 3671,
+      "sha256": "8ee0a58df44aba7a8b104c5455b6148f8ba9c9b67a616a01f9271b666df06ab1"
+    }
+  },
+  "notes": [
+    "R035 is recorded as an instruction fix: Chinese instruction from Siyuan plus English translation; IA score/subscores unchanged.",
+    "R100 droid/cogvideo/task_0142 is removed as a full test item, so both PA and IA labels for that item are absent from the final 801-row JSONL.",
+    "Final JSONL schema matches test_0915 and does not contain instruction text fields; instruction fixes are in the separate manifest."
+  ]
+}
